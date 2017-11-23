@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		06391F3F1F0A2FA2000CBEAA /* ReplayKitRecording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitRecording.swift; sourceTree = "<group>"; };
-		709C7D151F09498C002B9025 /* AR-Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709C7D151F09498C002B9025 /* ARHoleInTheGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARHoleInTheGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		709C7D181F09498C002B9025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		709C7D1A1F09498C002B9025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		709C7D1D1F09498C002B9025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		709C7D0C1F09498C002B9025 = {
 			isa = PBXGroup;
 			children = (
-				709C7D171F09498C002B9025 /* AR-Portal */,
+				709C7D171F09498C002B9025 /* ARHoleInTheGround */,
 				709C7D161F09498C002B9025 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		709C7D161F09498C002B9025 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				709C7D151F09498C002B9025 /* AR-Portal.app */,
+				709C7D151F09498C002B9025 /* ARHoleInTheGround.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		709C7D171F09498C002B9025 /* AR-Portal */ = {
+		709C7D171F09498C002B9025 /* ARHoleInTheGround */ = {
 			isa = PBXGroup;
 			children = (
 				709C7D181F09498C002B9025 /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				709C7D321F09619E002B9025 /* Media.scnassets */,
 				06391F3F1F0A2FA2000CBEAA /* ReplayKitRecording.swift */,
 			);
-			path = "AR-Portal";
+			path = ARHoleInTheGround;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		709C7D141F09498C002B9025 /* AR-Portal */ = {
+		709C7D141F09498C002B9025 /* ARHoleInTheGround */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 709C7D271F09498D002B9025 /* Build configuration list for PBXNativeTarget "AR-Portal" */;
+			buildConfigurationList = 709C7D271F09498D002B9025 /* Build configuration list for PBXNativeTarget "ARHoleInTheGround" */;
 			buildPhases = (
 				709C7D111F09498C002B9025 /* Sources */,
 				709C7D121F09498C002B9025 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "AR-Portal";
+			name = ARHoleInTheGround;
 			productName = "AR-Portal";
-			productReference = 709C7D151F09498C002B9025 /* AR-Portal.app */;
+			productReference = 709C7D151F09498C002B9025 /* ARHoleInTheGround.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 709C7D101F09498C002B9025 /* Build configuration list for PBXProject "AR-Portal" */;
+			buildConfigurationList = 709C7D101F09498C002B9025 /* Build configuration list for PBXProject "ARHoleInTheGround" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				709C7D141F09498C002B9025 /* AR-Portal */,
+				709C7D141F09498C002B9025 /* ARHoleInTheGround */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 				INFOPLIST_FILE = "AR-Portal/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ideo.chanware.arportal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideo.chanware.ARHoleInTheGround;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,7 +304,7 @@
 				INFOPLIST_FILE = "AR-Portal/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ideo.chanware.arportal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideo.chanware.ARHoleInTheGround;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		709C7D101F09498C002B9025 /* Build configuration list for PBXProject "AR-Portal" */ = {
+		709C7D101F09498C002B9025 /* Build configuration list for PBXProject "ARHoleInTheGround" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				709C7D251F09498D002B9025 /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		709C7D271F09498D002B9025 /* Build configuration list for PBXNativeTarget "AR-Portal" */ = {
+		709C7D271F09498D002B9025 /* Build configuration list for PBXNativeTarget "ARHoleInTheGround" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				709C7D281F09498D002B9025 /* Debug */,
