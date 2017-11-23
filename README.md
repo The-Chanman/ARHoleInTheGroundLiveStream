@@ -10,5 +10,8 @@ The environment.jpg/environment_blur.exr is from Apple demo
 In order to have the right HLS url to tune into, use Streamlink in python2 or 3 to get the realtime url.
 Important to note that it will change with every rebroadcast of the stream.
 
+## Author
+Eric Chan / [@erirrows](https://twitter.com/erirrows)
+
 ## For the masking technique and base framework
 Bjarne Lundgren / bjarne@sent.com / [@bjarnel](https://twitter.com/bjarnel)
