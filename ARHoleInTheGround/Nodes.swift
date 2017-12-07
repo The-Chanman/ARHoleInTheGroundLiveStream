@@ -60,7 +60,7 @@ final class Nodes {
         // Create a video player, which will be responsible for the playback of the video material
 //        let videoUrl = Bundle.main.url(forResource: "Media.scnassets/colab", withExtension: "mp4")!
 //        let videoPlayer = AVPlayer(url: videoUrl)
-        let streamUrl = URL(string: "https://video-edge-91412c.jfk03.hls.ttvnw.net/v0/CuwBiABal_mmfk6okExkUly0DuAYrVctf3U1zKfqKXfceowk_qOLDrxtFdaRgN8PAmQQRLdVABbEXaNpo4kaGd-jGV9t_DwrXW1qwy4hNq1Fy1KaLVCYBuRtc17jT897tPS31bdD8PIcwNfWDAfblFHb8YVrpvYuYYEe8dcJUgT9-Cq3w9xGCIaZvG8mKI_Z-_0GHWRlcw21TNGK_UF6HEVgCnnBaHv6rSyKwtI0HlOB3Q3sI-7gHb5oSogRLbnXT3pYcb-1j7mcQ7Bh1e_xqrvV4Sc6blMZYTDxBMw323GnFk3iBuFd7H-3PanQ7FISEOK1tHlvfd0EhlSndfG7TPoaDB6QNuMAHBvCm9ty6A/index-live.m3u8")
+        let streamUrl = URL(string: "https://video-weaver.jfk03.hls.ttvnw.net/v1/playlist/CrEC5WTvoW4kNbTVubm7XXl89NTrt0YIOcx3oZncPLOcu64XQrUGIzfnP-S8Cl9r4EWDTzxJemZpQ3QbEHZaH0IX_N-dNeWO5rSczumERm6IcC0a7elL7jjRbgrwpIJP33g55RhUGsy0BuR1lrcKbGgbOBCiEFGxruLqjq8Z-P2Uwihp7nlAESpMwel282GHkb-HUSwmFUi6ZOCci-H9wQn5XBVBDFLTT2-z7KPAw83MPUZcoldYWSTY07q141lOJ4roSs41J1Wb4M-XpPGVwDFCGy_Ewh7lcQLIeasfDIr5cEcsqHueBVPZhZItvp5oHbaSR3euiaA4vag7gdTTl3pBQVSbM-s9eeVKK92bE_nKKh-hVLqtiHroe99SNQeimj5BTw9NMGo8eTHAltC3_6A2nwoSEN9FoUiVU0JKAXs4-f1y2dsaDNfRk9e3K5KPZov9Sw.m3u8")
         let videoPlayer = AVPlayer(url: streamUrl!)
     
         // To make the video loop

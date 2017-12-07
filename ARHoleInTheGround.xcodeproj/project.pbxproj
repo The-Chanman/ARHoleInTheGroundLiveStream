@@ -16,6 +16,7 @@
 		709C7D2B1F094BAE002B9025 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C7D2A1F094BAE002B9025 /* Extensions.swift */; };
 		709C7D301F094C5B002B9025 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C7D2F1F094C5B002B9025 /* Nodes.swift */; };
 		709C7D331F09619E002B9025 /* Media.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 709C7D321F09619E002B9025 /* Media.scnassets */; };
+		8875AC941FD8BCA400973463 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8875AC931FD8BCA300973463 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		709C7D2A1F094BAE002B9025 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		709C7D2F1F094C5B002B9025 /* Nodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nodes.swift; sourceTree = "<group>"; };
 		709C7D321F09619E002B9025 /* Media.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Media.scnassets; sourceTree = "<group>"; };
+		8875AC931FD8BCA300973463 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				709C7D241F09498D002B9025 /* Info.plist */,
 				709C7D2A1F094BAE002B9025 /* Extensions.swift */,
 				709C7D2F1F094C5B002B9025 /* Nodes.swift */,
+				8875AC931FD8BCA300973463 /* Models.scnassets */,
 				709C7D321F09619E002B9025 /* Media.scnassets */,
 				06391F3F1F0A2FA2000CBEAA /* ReplayKitRecording.swift */,
 			);
@@ -137,6 +140,7 @@
 				709C7D331F09619E002B9025 /* Media.scnassets in Resources */,
 				709C7D231F09498D002B9025 /* LaunchScreen.storyboard in Resources */,
 				709C7D201F09498C002B9025 /* Assets.xcassets in Resources */,
+				8875AC941FD8BCA400973463 /* Models.scnassets in Resources */,
 				709C7D1E1F09498C002B9025 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3DTT789YMW;
-				INFOPLIST_FILE = "AR-Portal/Info.plist";
+				INFOPLIST_FILE = ARHoleInTheGround/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideo.chanware.ARHoleInTheGround;
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3DTT789YMW;
-				INFOPLIST_FILE = "AR-Portal/Info.plist";
+				INFOPLIST_FILE = ARHoleInTheGround/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideo.chanware.ARHoleInTheGround;
