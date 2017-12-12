@@ -60,7 +60,7 @@ final class Nodes {
         // Create a video player, which will be responsible for the playback of the video material
 //        let videoUrl = Bundle.main.url(forResource: "Media.scnassets/colab", withExtension: "mp4")!
 //        let videoPlayer = AVPlayer(url: videoUrl)
-        let streamUrl = URL(string: "https://video-weaver.jfk03.hls.ttvnw.net/v1/playlist/CrEC5WTvoW4kNbTVubm7XXl89NTrt0YIOcx3oZncPLOcu64XQrUGIzfnP-S8Cl9r4EWDTzxJemZpQ3QbEHZaH0IX_N-dNeWO5rSczumERm6IcC0a7elL7jjRbgrwpIJP33g55RhUGsy0BuR1lrcKbGgbOBCiEFGxruLqjq8Z-P2Uwihp7nlAESpMwel282GHkb-HUSwmFUi6ZOCci-H9wQn5XBVBDFLTT2-z7KPAw83MPUZcoldYWSTY07q141lOJ4roSs41J1Wb4M-XpPGVwDFCGy_Ewh7lcQLIeasfDIr5cEcsqHueBVPZhZItvp5oHbaSR3euiaA4vag7gdTTl3pBQVSbM-s9eeVKK92bE_nKKh-hVLqtiHroe99SNQeimj5BTw9NMGo8eTHAltC3_6A2nwoSEN9FoUiVU0JKAXs4-f1y2dsaDNfRk9e3K5KPZov9Sw.m3u8")
+        let streamUrl = URL(string: "https://stream-us1-foxtrot.dropcam.com/nexus_aac/e4b8e0c4db3e48a0b40de44bfc9874e2/chunklist_w1143067351.m3u8")
         let videoPlayer = AVPlayer(url: streamUrl!)
     
         // To make the video loop
