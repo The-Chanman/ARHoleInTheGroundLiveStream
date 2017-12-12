@@ -238,21 +238,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
             holeWallsNode.eulerAngles = SCNVector3(0, 0, 0)
             holeWallsNode.position = SCNVector3(0,-holeHeight*0.5,0)
             
-//            //      hole opening animation
-//            SCNTransaction.begin()
-//            SCNTransaction.animationDuration = 0.0
-//
-//            holeWallsNode.childNode(withName: "holeOpening", recursively: true)?.morpher?.setWeight(0.0, forTargetAt: 0) // From closed to open
-//
-//            SCNTransaction.completionBlock = {
-//                NSLog("Transaction completing")
-//                SCNTransaction.begin()
-//                SCNTransaction.animationDuration  = 5.0
-//                holeWallsNode.childNode(withName: "holeOpening", recursively: true)?.morpher?.setWeight(1, forTargetAt: 0) // And back
-//                SCNTransaction.commit()
-//            }
-//            SCNTransaction.commit()
-            
             //      Adding the hole to the scene
             wrapperNode.addChildNode(holeWallsNode)
             
